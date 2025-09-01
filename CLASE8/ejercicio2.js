@@ -1,8 +1,6 @@
+const prompt = require('prompt-sync')(); // Carga la librería para pedir input
 
-const prompt = require('prompt-sync')({sigint: true});
-
-let num = prompt('Ingrese un número: ');
-num = Number(num);
+let num = parseFloat(prompt('Ingrese un número: ')); // Convierte la entrada a número decimal
 
 if (num < 0) {
     console.log('ES UN NÚMERO NEGATIVO');
