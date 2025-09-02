@@ -8,5 +8,3 @@ nombre = prompt('Ingrese su nombre o apodo: ');
 
 console.log(saludo+' '+nombre+' '+saludo2);
 
-
-
