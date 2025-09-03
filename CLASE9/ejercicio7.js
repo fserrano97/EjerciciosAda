@@ -12,5 +12,5 @@ function Convertidor(peso) {
 let peso = Number(prompt('Ingrese su peso en kg: '));
 let pesoEnLibra = Convertidor(peso);
 
-// Usando interpolación de strings
+
 console.log(`${peso} kg son ${pesoEnLibra.toFixed(2)} libras.`);
