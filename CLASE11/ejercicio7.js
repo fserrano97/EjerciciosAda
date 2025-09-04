@@ -6,7 +6,7 @@ let num2 = Number(prompt('INGRESE OTRO NUMERO: '));
 let oper = prompt('INGRESE OPERANDO(suma,resta,dividir,multiplicar): ');
 let total;
 
-switch (oper){
+switch (oper.toLowerCase()){
     case 'suma':
         total = num + num2
         console.log('Total= ',total);
