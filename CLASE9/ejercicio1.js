@@ -4,8 +4,8 @@ const prompt = require('prompt-sync')();
  
 let num1, num2;
 
-num1 = parseFloat(prompt('INGRESE PRIMER NUMERO: '));
-num2 = parseFloat(prompt(' INGRESE SEGUNDO UN NUMERO: '));
+num1 = parseInt(prompt('INGRESE PRIMER NUMERO: '));
+num2 = parseInt(prompt(' INGRESE SEGUNDO UN NUMERO: '));
 
 if (num1 > num2){
     console.log('EL PRIMER NUMERO ES EL MAYOR :',num1);
