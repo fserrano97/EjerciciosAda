@@ -1,7 +1,6 @@
 
 
 let notas = [];
-
 let nota_Alumno = parseFloat(prompt('Ingrese nota del alumno: ')); 
 let cant_Notas = parseInt(prompt('Dime la CANTIDAD de notas que vas a ingresar: '));
 
