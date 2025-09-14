@@ -7,4 +7,7 @@ function concatenarNombres(nombre, apellido){
 let nombre = prompt('Ingrese su nombre');
 let apellido = prompt('Ingrese su apellido');
 
-console.log(concatenarNombres(nombre,apellido));
+
+
+let concatenar = concatenarNombres(nombre,apellido);
+console.log(concatenar);
