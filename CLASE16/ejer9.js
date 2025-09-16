@@ -6,5 +6,4 @@
 let nombres = ['sol', 'luna', 'estrella'];
 
 let total = nombres.reduce((acum, nombre) => acum + nombre.length, 0);
-
 console.log(total);
