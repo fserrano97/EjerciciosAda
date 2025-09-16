@@ -5,4 +5,4 @@ let suma = numeros.reduce(function(acum,num){
     return acum+num;
 });
 
-console.log('Suma total: ',suma);
+console.log('Suma total: ',suma); 
